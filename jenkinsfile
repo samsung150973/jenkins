@@ -8,7 +8,7 @@ pipeline {
             }
         }   
 
-        stage('stage Name 1') {
+        stage('stage Name 2') {
             steps {
                 sh "echo This is my first stage in jenkins world"
             }
