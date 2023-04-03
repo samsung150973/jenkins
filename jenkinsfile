@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages
+        stage('stage Name 1') {
+            sh "echo This is my first stage in jenkins"
+        }
+
+        stage('stage Name 2') {
+            sh "echo This is my first stage in jenkins"
+        }
+}
