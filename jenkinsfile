@@ -3,12 +3,14 @@ pipeline {
 
     environment {
         ENV_URL = "pipeline.learning.com"
+        SSH_CREDENTIALS = credentials ("SSH_CRED")
     }
     stages {
         
         stage('stage Name 1') {
             steps {
                 sh "echo This is my first stage in jenkins world"
+                sh "env"
             }
         }   
 
