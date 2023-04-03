@@ -4,15 +4,15 @@ pipeline {
         
         stage('stage Name 1') {
             steps {
-            sh "echo This is my first stage in jenkins world"
-                }
-            }   
+                sh "echo This is my first stage in jenkins world"
+            }
+        }   
 
         stage('stage Name 1') {
             steps {
-            sh "echo This is my first stage in jenkins world"
-                }
-            } 
+                sh "echo This is my first stage in jenkins world"
+            }
+        } 
         
     }
 }
