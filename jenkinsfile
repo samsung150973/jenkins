@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages
         stage('stage Name 1') {
-            sh "echo This is my first stage in jenkins"
+            sh "echo This is my first stage in jenkins world"
         }
 
         stage('stage Name 2') {
